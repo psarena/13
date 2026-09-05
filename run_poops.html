@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" manifest="cache.appcache">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PS Arena - keep your gaming running - 01141133810</title>
+<style>
+  html, body { margin:0; padding:0; background:#050204; color:#fff;
+               font:15px/1.45 'Segoe UI', system-ui, sans-serif; }
+  #wrap { padding:16px 18px; max-width: 1250px; margin: 0 auto; }
+  #brand { display:flex; align-items:center; justify-content:center; gap:10px; padding:10px;
+           background:rgba(18, 4, 8, 0.85); border:1px solid rgba(255, 50, 80, 0.3);
+           border-radius:12px; margin-bottom:12px; }
+  #brand img { width:28px; height:28px; object-fit:contain; }
+  #brand b { font-size:16px; font-weight:900; letter-spacing:1px; color:#ff4d66; }
+  #state { font-size:20px; font-weight:800; margin:0 0 10px; color:#ff8093; text-align:center; }
+  #out { white-space:pre-wrap; font:12px/1.45 Consolas, monospace;
+         background:#090306; border:1px solid rgba(255, 50, 80, 0.2); border-radius:10px;
+         padding:12px; height:calc(100vh - 180px); overflow-y:auto; color:#f0f0f0; }
+  .ok { color:#34d399; } .bad { color:#f87171; } .warn { color:#fbbf24; }
+  .footer { text-align:center; font-size:12px; color:rgba(255, 255, 255, 0.4); margin-top:8px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div id="brand">
+    <img src="logo.png" alt="PS Arena Logo">
+    <b>PS Arena • Keep Your Gaming Running</b>
+  </div>
+
+  <div id="state">
+     جارٍ تشغيل Poops Chain...
+  </div>
+  
+  <div id="out"></div>
+  <div class="footer">PS Arena • بنها & شبين الكوم • 01141133810</div>
+</div>
+
+<script type="module">
+  import "./chain_poops.js";
+</script>
+</body>
+</html>
