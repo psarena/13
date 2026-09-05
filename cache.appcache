@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# build PS_ARENA_FINAL_01
+# build PSArena_V3_Clean
 
 index.html
 PS4_9.00_TO_13.00_Webkit.html
@@ -9,7 +9,6 @@ run_poops.html
 chain_lapse.js
 chain_poops.js
 core.js
-core.js?v=10
 mem.js
 int64.js
 ps4_offsets.js
@@ -18,7 +17,6 @@ sysctl.html
 sysctl.js
 preview.png
 logo.png
-logo_raw.png
 payload.bin
 patches/1100.bin
 patches/1150.bin
